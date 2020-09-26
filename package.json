@@ -1,0 +1,25 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightmanCZ90/webpack-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NightmanCZ90/webpack-app/issues"
+  },
+  "homepage": "https://github.com/NightmanCZ90/webpack-app#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
