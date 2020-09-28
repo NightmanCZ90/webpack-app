@@ -3,7 +3,10 @@ const path = require('path');
 
 module.exports = {
   // devtool: 'none', -to change from eval to regular understandable functions
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+    vendor: './src/vendor.js'
+  },
   plugins: [new HtmlWebpackPlugin({ template: './src/template.html'})],
   module: {
     rules: [
